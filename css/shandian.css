@@ -1,0 +1,74 @@
+.main_shop{
+width:1225px; margin:0 auto; 
+	}
+#main_name{ 
+height:64px;
+background:url(../img2/lxqbj.jpg) }
+
+#main_name2{ 
+height:64px;
+background:url(../img2/sp.jpg) }
+.stress{font-size:60px;color:#C0DCC0;}
+
+#main_head_box{
+	margin-left:61px;
+	width:1225px;
+border-bottom:1px solid red;
+}
+
+.sale_box{
+	margin-top:17px;
+	height:2000px;
+	background-color: #A0A0A4;
+}
+
+
+
+
+.sale_box_store1{
+	width:405px;
+	height:500px;
+	background:white;
+	border:1px solid #000;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sale_box_store1:hover{
+
+border: 2px solid #FF0;
+}
+	
+
+.buttom_zs{
+	height:35px;
+	background-color:#000;
+	
+	border-top:1px solid red;}
+	.zs_nr{
+		font-size:10px;
+	color:#A0A0A4;
+
+	}

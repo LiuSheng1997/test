@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{ font-family:"microsoft yahei",simsun,Tahoma,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{ font-size:14px;}
+a{color: #313131;text-decoration: none; }
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden,.none{display: none;}
+
+.login_bj{ background:url(../img/bj_zhuce.jpg) no-repeat top center;}
+.zhuce_body{ float:left; width:100%; height:auto;}
+
+.zhuce_body .zhuce_kong{ position:absolute; top:50%; left:50%; width:600px; height:400px; margin-left:-190px; margin-top:-200px;}
+.zhuce_body .zhuce_kong .zc{width:600px; height:408px;}
+.zhuce_body .zhuce_kong .zc .bj_bai{ float:left; width:365px; height:400px; padding-left:50px; background:#FFF;}
+.zhuce_body .zhuce_kong .zc .bj_bai h3{ font:16px/70px "微软雅黑", "黑体"; color:#333333; width:270px; text-align:center;}
+.zhuce_body .zhuce_kong .zc .bj_right{ float:left;width:185px; height:408px; padding-left:51px; background:#f8f8f8;}
+.zhuce_kong > p{font:16px/70px "微软雅黑", "黑体"; text-align:center; color:#fff;}
+
+.zhuce_body .zhuce_kong .zc .bj_bai .kuang_txt{ width:236px; height:32px; border:1px solid #dddddd; line-height:32px; padding-left:32px; color:#b1a9a9;  margin-bottom:10px; }
+.zhuce_body .zhuce_kong .zc .bj_bai .btn_zhuce{ width:350px; height:33px; background:#37b5f9; font-size:14px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;}
+
+
+.zhuce_body .zhuce_kong .zc .bj_bai .email{background:url(../img/zc_06.jpg) no-repeat 10px 10px;}
+.zhuce_body .zhuce_kong .zc .bj_bai .possword{background:url(../img/zc_16.jpg) no-repeat 10px 10px;}
+
+
+
+
