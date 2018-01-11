@@ -1,0 +1,260 @@
+.main_shop{
+
+width:1225px; margin:0 auto; 
+	}
+#main_name{ 
+height:64px;
+background:url(../img2/lxqbj.jpg) }
+
+#main_name2{ 
+height:64px;
+background:url(../img2/shop_2.jpg) }
+
+.stress{font-size:60px;color:#AF5;
+}
+.shop_main_div{
+   height:100px;
+   
+}
+
+#main_head_box{
+	margin-left:61px;
+	width:1225px;
+
+}
+
+.sale_box{
+	margin-top:30px;
+	height:1220px;
+	
+	
+	background-color: yellow;
+}
+
+
+.shop1{
+	float:left;
+	margin-left:67px;
+   margin-top:40px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+.shop2{
+	
+	float:left;
+   margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+.shop3{
+	
+	float:left;
+   margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+.shop4{
+	
+	float:left;
+   margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+.shop5{
+	
+float:left;
+  margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+.shop6{
+	
+float:left;
+  margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+.shop7{
+	
+float:left;
+  margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+
+
+.shop8{
+	
+float:left;
+  margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+
+
+.shop11,.shop10,.shop9,.shop12{
+	
+float:left;
+  margin-top:40px;
+   margin-left:67px;
+	width:220px;
+	height:352px;
+	  border:1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lyb_1{
+	margin-top:50px;
+	margin-left:550px;
+}
+
+
+
+
+
+.buttom_zs{
+	height:35px;
+	background-color:#000;
+	
+	border-top:1px solid red;}
+	.zs_nr{
+		font-size:12px;
+	color:#A0A0A4;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sale_box_store1:hover{
+
+border: 2px solid #FF0;
+}
+	
+
+.buttom_zs{
+	height:50px;
+	border-top:1px solid #ff4400;
+	}

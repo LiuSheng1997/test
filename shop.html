@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>3000生活网-个人小店</title>
+   
+     <link href="css/shop1.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="css/test.css"/>
+     <script type="text/javascript">
+  function rec(){
+    var mychar="请按ctrl+D收藏";
+alert(mychar);
+  }
+  </script>
+    <script type="text/javascript" src="js/test2.js"></script>
+    <script src="js/test1.js"></script>
+    <script type="text/javascript" src="js/denglu5.js"></script>
+<link rel="Stylesheet" type="text/css" href="css/denglu.css" />
+</head>
+<body>
+     <div class="head_box">
+         <div id="head_wrap">
+             <div id="head_nav">
+                <a style="color:#b0b0b0" href="tencent://message/?uin=993986077&Site=Sambow&Menu=yes"> 联系站长 </a>
+ 
+                 <span>|</span>
+                   <a onclick="rec()">
+               收藏网址
+               </a>
+             </div>
+             <div id="head_right">
+                 <div id="head_landing">
+                     <a " href="#" id="example"><font color="#b0b0b0">登陆</font></a>
+                     <span>|</span>
+                     <a style="color:#b0b0b0" href="zhuce2.html" target="_blank" class="head_nav_a">注册</a>
+                 </div>
+                 <div id="head_car">
+                     <a class="head_car_text">消息（0）</a>
+                     <div id="car_content" style="height: 0px;width:0px ;background-color: #edffc6;z-index: 999">
+                         <a class="car_text"></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div id="main_head_box">
+         <div id="menu_wrap">
+             <div id="menu_logo">
+             
+          <a href="http://www.3000life.cn" >     <img src="img/xuexiao.jpg" width="67" height="63" >  </a>
+          
+
+</span>
+</div>
+
+
+
+             <div id="menu_nav">
+                 <ul>
+                    <!-- <li class="menu_li" control="xiaomiphone">公告</li>-->
+                    <li >公告</li>
+                   <a style="color:#424242" href="choice_1.html" >  <li >课表查询</li>
+                      
+              <a style="color:#424242" href="http://lib.hnisc.com/Index.html" target="_blank">      <li>图书馆</li>
+                      
+                       <a style="color:#424242" href="http://www.hnisc.com" target="_blank">
+                       <li>湘信院官网</li>
+        </a> 
+ <a style="color:#424242" href="choice_2.html" target="_blank"  >
+ <li>教务管理系统</li></ul></div>
+            <!--  搜索框 -->
+         </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="LoginBox">
+
+
+        <div class="row1">
+            账号登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a>
+        </div>
+        <div class="row">
+            账&nbsp;&nbsp;号: <span class="inputBox">
+                <input type="text" id="txtName" placeholder="请输入您的账号" />
+            </span><a href="javascript:void(0)" title="提示" class="warning" id="warn">*</a>
+        </div>
+        <div class="row">
+            密&nbsp;&nbsp;码: <span class="inputBox">
+                <input type="password" id="txtPwd" placeholder="请输入您的密码" />
+            </span><a href="javascript:void(0)" title="提示" class="warning" id="warn2">*</a>
+        </div>
+        <div class="row">
+        <a href="#" id="loginbtn">登录</a>    <h6> 
+        </div><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="zhuce2.html" >注册账号</a> </h6>
+      
+    </div>
+
+	<script type="text/javascript">
+	$(function ($) {
+		//弹出登录
+		$("#example").hover(function () {
+			$(this).stop().animate({
+				opacity: '1'
+			}, 600);
+		}, function () {
+			$(this).stop().animate({
+				opacity: '0.6'
+			}, 1000);
+		}).on('click', function () {
+			$("body").append("<div id='mask'></div>");
+			$("#mask").addClass("mask").fadeIn("slow");
+			$("#LoginBox").fadeIn("slow");
+		});
+		//
+		//按钮的透明度
+		$("#loginbtn").hover(function () {
+			$(this).stop().animate({
+				opacity: '1'
+			}, 600);
+		}, function () {
+			$(this).stop().animate({
+				opacity: '0.8'
+			}, 1000);
+		});
+		//文本框不允许为空---按钮触发
+		$("#loginbtn").on('click', function () {
+			var txtName = $("#txtName").val();
+			var txtPwd = $("#txtPwd").val();
+			if (txtName == "" || txtName == undefined || txtName == null) {
+				if (txtPwd == "" || txtPwd == undefined || txtPwd == null) {
+					$(".warning").css({ display: 'block' });
+				}
+				else {
+					$("#warn").css({ display: 'block' });
+					$("#warn2").css({ display: 'none' });
+				}
+			}
+			else {
+				if (txtPwd == "" || txtPwd == undefined || txtPwd == null) {
+					$("#warn").css({ display: 'none' });
+					$(".warn2").css({ display: 'block' });
+				}
+				else {
+					$(".warning").css({ display: 'none' });
+				}
+			}
+		});
+		//文本框不允许为空---单个文本触发
+		$("#txtName").on('blur', function () {
+			var txtName = $("#txtName").val();
+			if (txtName == "" || txtName == undefined || txtName == null) {
+				$("#warn").css({ display: 'block' });
+			}
+			else {
+				$("#warn").css({ display: 'none' });
+			}
+		});
+		$("#txtName").on('focus', function () {
+			$("#warn").css({ display: 'none' });
+		});
+		//
+		$("#txtPwd").on('blur', function () {
+			var txtName = $("#txtPwd").val();
+			if (txtName == "" || txtName == undefined || txtName == null) {
+				$("#warn2").css({ display: 'block' });
+			}
+			else {
+				$("#warn2").css({ display: 'none' });
+			}
+		});
+		$("#txtPwd").on('focus', function () {
+			$("#warn2").css({ display: 'none' });
+		});
+		//关闭
+		$(".close_btn").hover(function () { $(this).css({ color: 'black' }) }, function () { $(this).css({ color: '#999' }) }).on('click', function () {
+			$("#LoginBox").fadeOut("fast");
+			$("#mask").css({ display: 'none' });
+		});
+	});
+	</script>	
+<div style="text-align:center;">
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="main_shop">
+
+<div  id=main_name2 >
+
+<span class="stress">个人小店</span>   
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="sale_box">
+
+
+<!--以下盒子为四合院夜猫子店铺  -->
+
+
+<div class="shop1">
+
+
+
+<div class="shop1_img">
+<a href="shop_ymz.html">
+<img src="img2/ymz.jpg">
+  </a> 
+  </div>
+
+
+
+
+<div class="shop1_name">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red"  class="shop_name3">四合院夜猫子店铺 </span>
+</div>
+
+
+<div class="shop1_ps">
+<a>&nbsp;营业时间：晚上9店至凌晨1点</a>
+</div>
+
+<div class="shop1_send">
+
+<a>&nbsp;      &nbsp; 送货范围：19栋-22栋</a></div>
+
+
+<div class="shop1_talk">
+
+<a> &nbsp; &nbsp;  联系方式：</a>
+<a target="_blank" href="tencent://message/?uin=2284902013&Site=Sambow&Menu=yes"">
+<img src="img2/qq_talk.png" alt="点击这里联系店长" title="点击这里联系店长"/></a>
+</div>
+
+
+</div>
+<!--以上为四合院夜猫子店铺  -->
+
+
+
+<div class="shop2">
+
+
+
+<div class="shop2_img">
+<a href="shop_ymz.html">
+<img src="img3/tougao.jpg">
+  </a> 
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+<br>
+   
+<div style="font-size:40px;" class="lyb_1">
+留言板
+</div>
+<meta name="Keywords" content="湖南信息学院,湖南信息学院老校区,湖南信息学院外卖" /><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+        
+ <style type="text/css">
+        h1{
+    font-size:40px;
+    color:#930;
+    text-align:center;
+        }
+</style>
+<div class="ds-thread" data-thread-key="yemaozi" data-title="shop_ymz" data-url="www.3000life.cn"></div>
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"lsheng"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+
+	</script>
+</script>
+
+
+
+
+
+</div>
+
+
+<div class="buttom_zs">
+
+<span class="zs_nr">           <center>     <br> &nbsp; 备案号:湘ICP备16012152号	| <a style="color:#a0a0a4" href="mianze.html" target="_blank">免责申明</a>  <span>|</span><span>&nbsp;免费提供腾讯云幕布</span></span>
+</center>
+</div>
+
+
+
+</body>
+</html>
